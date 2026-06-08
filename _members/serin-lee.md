@@ -2,6 +2,7 @@
 name: Serin Lee
 image: images/team/serin-lee.jpg
 role: pi
+is-pi: true
 description: Assistant Professor (PI)
 aliases:
   - Serin Lee
@@ -10,8 +11,7 @@ aliases:
   - Lee, Serin
 links:
   email: serinlee@inu.ac.kr
-  # orcid: 0000-0000-0000-0000
-  # google-scholar: XXXXXXXX
+  google-scholar: https://scholar.google.com/citations?user=UUgId1AAAAAJ&hl=en
 ---
 
 Serin Lee is an Assistant Professor in the Department of Industrial & Management

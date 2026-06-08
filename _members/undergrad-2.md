@@ -1,6 +1,7 @@
 ---
 name: Undergraduate Researcher 2
 role: undergrad
+is-undergrad: true
 description: Undergraduate Researcher
 ---
 
