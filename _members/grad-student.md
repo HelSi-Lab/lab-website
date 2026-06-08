@@ -1,8 +1,13 @@
 ---
-name: Graduate Researcher
+name: Haeun Kang
 role: grad
+is-grad: true
 description: M.S. Student
+image: images/team/haeun-kang.jpg
+links:
+  email: nueahk8@inu.ac.kr
 ---
 
-Profile coming soon. Replace this file (rename to the student's name, e.g.
-`hong-gildong.md`) and fill in the photo, links, and bio.
+Haeun Kang is  ...
+
+**Research interests:** 

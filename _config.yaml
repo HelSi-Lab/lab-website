@@ -1,7 +1,7 @@
 # site properties and page defaults
 
 title: HelSi Lab
-subtitle: Healthcare & Simulation Optimization · Incheon National University
+# subtitle: Healthcare & Simulation Optimization · Incheon National University
 description: HelSi Lab at Incheon National University develops simulation, optimization, and digital-twin methods for healthcare, infectious disease, and bioprocess systems. PI Serin Lee.
 logo-text: true
 header-dark: true

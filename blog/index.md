@@ -1,21 +1,22 @@
 ---
-title: Blog
+title: News
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  order: 5
+  tooltip: Lab updates
 ---
-
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% include search-box.html %}
+# News
 
-{% include tags.html tags=site.tags %}
+- **2026.06** — Lab website launched!
 
-{% include search-info.html %}
+- **2026.03** — NRF grant awarded: Digital Twin-based Virtual Clinical Trials for Infectious Diseases (2026–2029).
 
-{% include list.html data="posts" component="post-excerpt" %}
+- **2026.02** — Invited talk at KRIBB: Data-driven approaches to support clinical trials.
+
+- **2026.01** — Invited talk at SNU: Data-driven approaches to support clinical trials.
+
+- **2025.11** — Oral presentation at Epidemics, San Diego: DBS measurements for HIV PrEP adherence.
+
+- **2025.09** — Prof. Serin Lee joins INU as Assistant Professor. HelSi Lab opens!
