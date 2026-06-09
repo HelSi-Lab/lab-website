@@ -5,7 +5,7 @@
     and Correctional Facilities
   authors:
   - Christopher Weyant
-  - Serin Lee
+  - '**Serin Lee**'
   - Jeremy D. Goldhaber-Fiebert
   publisher: Medical Decision Making
   date: '2025-10-22'
@@ -16,7 +16,7 @@
 - id: doi:10.1007/s10729-025-09696-9
   title: Optimizing vaccination campaign strategies considering societal characteristics
   authors:
-  - Serin Lee
+  - '**Serin Lee**'
   - Zelda B. Zabinsky
   - Shan Liu
   publisher: Health Care Management Science
@@ -42,7 +42,7 @@
   title: Impact of Vaccination and Nonpharmaceutical Interventions With Possible COVID-19
     Viral Evolutions Using an Agent-Based Simulation
   authors:
-  - Serin Lee
+  - '**Serin Lee**'
   - Zelda B. Zabinsky
   - Judith N. Wasserheit
   - Jennifer M. Ross
@@ -59,7 +59,7 @@
     Populations: A Simulation Modeling Study'
   authors:
   - Christopher Weyant
-  - Serin Lee
+  - '**Serin Lee**'
   - Jason R. Andrews
   - Fernando Alarid-Escudero
   - Jeremy D. Goldhaber-Fiebert
@@ -69,7 +69,8 @@
   group: journal
   plugin: sources.py
   file: sources.yaml
-- title: 'COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical
+- id:doi.org/10.1177/0272989X21100308
+  title: 'COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical
     interventions on reopening society'
   authors:
   - '**Serin Lee**'
@@ -85,7 +86,7 @@
 - id: doi:10.1109/WSC60868.2023.10408638
   title: Representative Calibration Using Black-Box Optimization and Clustering
   authors:
-  - Serin Lee
+  - '**Serin Lee**'
   - Pariyakorn Maneekul
   - Zelda B. Zabinsky
   publisher: 2023 Winter Simulation Conference (WSC)
@@ -113,7 +114,7 @@
   - '**Serin Lee**'
   - Laura Matrajt
   - et al.
-  publisher: "Under review \xB7 Clinical Infectious Diseases"
+  publisher: "Under review \xB7 Journal of Acquired Immune Deficiency Syndromes"
   date: '2025-01-01'
   group: review
   plugin: sources.py

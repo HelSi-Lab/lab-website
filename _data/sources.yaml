@@ -1,20 +1,17 @@
-# HelSi Lab — publication sources for Manubot auto-citation.
-# After editing, run the "cite" GitHub Action (or it runs on push) to
-# regenerate _data/citations.yaml. DO NOT edit citations.yaml by hand.
-#
-# Entries with `id: doi:...` are fetched automatically (title, authors, date).
-# Entries without an id are manual fallbacks (no DOI available) — edit freely.
-# `group` is a custom field used only to filter the lists on the Research page.
+# HelSi Lab — all publication sources
+# DOI entries are auto-cited by Manubot. Manual entries provide all details directly.
+# 'group' field is used to filter on the Research page.
 
-# ---------- Journal papers ----------
+# ========== Journal papers ==========
 - id: doi:10.1177/0272989X251378472
   group: journal
+  
 
 - id: doi:10.1007/s10729-025-09696-9
   group: journal
 
-# HPVsim: add `- id: doi:...` instead if you have the DOI (gives auto thumbnail)
-- title: "HPVsim: An agent-based model of HPV transmission and cervical cancer"
+- id: doi:10.1177/0272989X221115364
+  title: "HPVsim: An agent-based model of HPV transmission and cervical cancer"
   authors:
     - Robyn M. Stuart
     - Jamie A. Cohen
@@ -31,8 +28,15 @@
 
 - id: doi:10.1177/0272989X221115364
   group: journal
+  authors:
+    - Christopher Weyant
+    - "**Serin Lee**"
+    - Jason R. Andrews
+    - Fernando Alarid-Escudero
+    - Jeremy D. Goldhaber-Fiebert
 
-- title: "COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical interventions on reopening society"
+- id: doi:10.1177/0272989X211035341
+  title: "COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical interventions on reopening society"
   authors:
     - "**Serin Lee**"
     - Zelda B. Zabinsky
@@ -43,11 +47,11 @@
   date: 2021-05-01
   group: journal
 
-# ---------- Peer-reviewed conference proceedings ----------
+# ========== Peer-reviewed conference proceedings ==========
 - id: doi:10.1109/WSC60868.2023.10408638
   group: proceedings
 
-# ---------- Under review & in preparation ----------
+# ========== Under review & in preparation ==========
 - title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection: Insights from pharmacokinetic modeling"
   authors:
     - "**Serin Lee**"
@@ -79,7 +83,104 @@
   date: 2025-06-01
   group: review
 
-# ---------- Optional: preprint not listed in your CV ----------
-# Uncomment to include the HPV therapeutic-vaccine modeling paper (under review):
-# - id: doi:10.1101/2023.12.04.23299403
-#   group: review
+# # ========== Invited talks ==========
+# - title: "Data-driven approaches to support clinical trials"
+#   publisher: Korea Research Institute of Bioscience & Biotechnology (KRIBB)
+#   date: 2026-02-06
+#   group: talk
+
+# - title: "Data-driven approaches to support clinical trials"
+#   publisher: Seoul National University (SNU)
+#   date: 2026-01-16
+#   group: talk
+
+# - title: "Introduction to agent-based modelling"
+#   publisher: Industrial & Mathematical Data Analytics Research Center, SNU
+#   date: 2020-09-01
+#   group: talk
+
+# ========== Conference presentations — oral ==========
+- title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067"
+  publisher: Epidemics, San Diego, CA
+  date: 2025-11-01
+  group: oral
+
+- title: "Optimizing Vaccination Campaign Considering Societal Characteristics"
+  publisher: Korean Institute of Industrial Engineers, Daejeon
+  date: 2025-11-01
+  group: oral
+
+- title: "Optimizing vaccination campaign strategies considering societal characteristics"
+  publisher: INFORMS Annual Meeting, Seattle, WA
+  date: 2024-10-01
+  group: oral
+
+- title: "Optimal vaccine promotion campaigns considering disease transmission and opinion propagation with fairness"
+  publisher: INFORMS Annual Meeting, Phoenix, AZ
+  date: 2023-10-01
+  group: oral
+
+- title: "Optimal budget allocation to vaccine promotion campaigns considering disease transmission and opinion propagation"
+  publisher: INFORMS Healthcare Conference, Toronto, Canada
+  date: 2023-07-01
+  group: oral
+
+- title: "Advancing simulation methodology for identifying optimal healthcare policy during COVID-19 pandemic"
+  publisher: IDM Annual Symposium, Seattle, WA
+  date: 2023-05-01
+  group: oral
+
+- title: "Optimal vaccination campaigns under opinion and physical networks"
+  publisher: INFORMS Annual Meeting, Indianapolis, IN
+  date: 2022-10-01
+  group: oral
+
+- title: "Impact of vaccination and relaxation of non-pharmaceutical interventions on controlling COVID-19 using agent-based simulation"
+  publisher: 43rd SMDM Annual Meeting
+  date: 2021-10-01
+  tags:
+    - Finalist, Lee B. Lusted Award
+  group: oral
+
+- title: "Using agent-based simulation to optimize vaccination schedules and non-pharmaceutical interventions to control COVID-19 outbreaks"
+  publisher: INFORMS Annual Meeting, Anaheim, CA
+  date: 2021-10-01
+  group: oral
+
+- title: "Using agent-based simulation to analyze how to achieve herd immunity to SARS-CoV-2 with vaccination and non-pharmaceutical interventions"
+  publisher: INFORMS Healthcare Conference
+  date: 2021-07-01
+  group: oral
+
+- title: "Impact of population health interventions for a measles outbreak in a low vaccination area"
+  publisher: INFORMS Annual Meeting
+  date: 2020-11-01
+  group: oral
+
+- title: "Agent-based simulation of COVID-19 society reopening plans in an urban setting"
+  publisher: INFORMS Annual Meeting
+  date: 2020-11-01
+  group: oral
+
+- title: "Agent-based simulation study of reopening scenarios for COVID-19 in a large urban area"
+  publisher: 42nd SMDM Annual Meeting
+  date: 2020-10-01
+  tags:
+    - Finalist, Lee B. Lusted Award
+  group: oral
+
+# ========== Posters ==========
+- title: "Optimal vaccination campaigns under disease transmission and opinion propagation"
+  publisher: 44th SMDM Annual Meeting, Seattle, WA
+  date: 2022-10-01
+  group: poster
+
+- title: "Optimizing COVID-19 vaccine prioritization policies with non-pharmaceutical interventions using agent-based simulation"
+  publisher: MIDAS Network Annual Meeting
+  date: 2021-05-01
+  group: poster
+
+- title: "Dimensionality reduction model for common eligibility criteria to effectively use electronic medical record: a pilot study"
+  publisher: Korean Society of Medical Informatics Spring Conference, Seoul
+  date: 2018-06-01
+  group: poster
