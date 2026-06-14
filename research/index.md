@@ -20,28 +20,40 @@ nav:
 
   <div class="research-grid">
     <div class="research-card">
-      <div class="research-card-number">01</div>
-      <h2>Healthcare Systems &amp; Policy</h2>
-      <p>Simulation and mathematical modeling for disease forecasting, health
-        policy evaluation, and resource allocation.</p>
+      <img class="research-card-img" src="images/proj-abm.jpg" alt="Healthcare systems and policy model">
+      <div class="research-card-body">
+        <div class="research-card-number">01</div>
+        <h2>Healthcare Systems &amp; Policy</h2>
+        <p>Simulation and mathematical modeling for disease forecasting, health
+          policy evaluation, and resource allocation.</p>
+      </div>
     </div>
     <div class="research-card">
-      <div class="research-card-number">02</div>
-      <h2>Biopharmaceutical Modeling &amp; Clinical Trials</h2>
-      <p>Pharmacokinetic modeling, clinical trial data, and simulation to
-        evaluate drug adherence and treatment effectiveness.</p>
+      <img class="research-card-img" src="images/proj-dbs.jpg" alt="Biopharmaceutical modeling">
+      <div class="research-card-body">
+        <div class="research-card-number">02</div>
+        <h2>Biopharmaceutical Modeling &amp; Clinical Trials</h2>
+        <p>Pharmacokinetic modeling, clinical trial data, and simulation to
+          evaluate drug adherence and treatment effectiveness.</p>
+      </div>
     </div>
     <div class="research-card">
-      <div class="research-card-number">03</div>
-      <h2>Digital Twin &amp; Simulation</h2>
-      <p>Digital-twin models for virtual clinical trials, biomanufacturing
-        processes, and healthcare operations.</p>
+      <img class="research-card-img" src="images/proj-biomfg.jpg" alt="Digital twin and simulation">
+      <div class="research-card-body">
+        <div class="research-card-number">03</div>
+        <h2>Digital Twin &amp; Simulation</h2>
+        <p>Digital-twin models for virtual clinical trials, biomanufacturing
+          processes, and healthcare operations.</p>
+      </div>
     </div>
     <div class="research-card">
-      <div class="research-card-number">04</div>
-      <h2>Simulation Optimization &amp; Explainable AI</h2>
-      <p>Optimization under uncertainty, surrogate modeling, parameter
-        calibration, and explainable AI for complex simulations.</p>
+      <img class="research-card-img" src="images/proj-xcal.jpg" alt="Simulation optimization">
+      <div class="research-card-body">
+        <div class="research-card-number">04</div>
+        <h2>Simulation Optimization &amp; Explainable AI</h2>
+        <p>Optimization under uncertainty, surrogate modeling, parameter
+          calibration, and explainable AI for complex simulations.</p>
+      </div>
     </div>
   </div>
 
