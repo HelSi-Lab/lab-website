@@ -25,6 +25,21 @@
   group: journal
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1371/journal.pcbi.1012181
+  title: 'HPVsim: An agent-based model of HPV transmission and cervical disease'
+  authors:
+  - Robyn M. Stuart
+  - Jamie A. Cohen
+  - Cliff C. Kerr
+  - '**Serin Lee**'
+  - Daniel J. Klein
+  - et al.
+  publisher: PLOS Computational Biology
+  date: '2024-07-01'
+  link: https://doi.org/hb7pj3
+  group: journal
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.focus.2023.100155
   title: Impact of Vaccination and Nonpharmaceutical Interventions With Possible COVID-19
     Viral Evolutions Using an Agent-Based Simulation
