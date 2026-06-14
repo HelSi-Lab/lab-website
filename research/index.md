@@ -99,7 +99,8 @@ nav:
 ### Conference presentations -->
 
 - **2025** — Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067. *Epidemics, San Diego, CA.* **Lee, S.**, Dimitrov, D., Anderson, P., Moore, M.
-- **2025** — Optimizing Vaccination Campaign Considering Societal Characteristics. *KIIE, Daejeon.* **Lee, S.**, Zabinsky, Z.B., Liu, S.
+- **2025** — Optimizing Vaccination Campaign Considering Societal Characteristics. *대한산업공학회 (Korean Institute of
+Industrial Engineers), Daejeon.* **Lee, S.**, Zabinsky, Z.B., Liu, S.
 
 ## Awards
 {: #awards}
