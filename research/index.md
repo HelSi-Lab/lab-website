@@ -73,27 +73,28 @@ nav:
 
 ### Under review & in preparation
 
-{% include list.html data="citations" component="citation" filters="group: review" %}
+{% include list.html data="citations" component="citation" filter="group == 'review'" %}
 
 ### Journal papers
 
-{% include list.html data="citations" component="citation" filters="group: journal" %}
+{% include list.html data="citations" component="citation" filter="group == 'journal'" %}
 
 ### Conference proceedings
 
-{% include list.html data="citations" component="citation" filters="group: proceedings" %}
+{% include list.html data="citations" component="citation" filter="group == 'proceedings'" %}
 
 ## Projects
 {: #projects}
 
-{% include cols.html col1="
 **2026 – 2029 · PI**
 가상 임상시험을 활용한 감염병 약물 유효성 예측 및 임상 프로토콜 최적화
 
 Digital Twin-based Virtual Clinical Trial for Infectious Diseases: Effectiveness Prediction and Protocol Optimization
 
 *한국연구재단 (National Research Foundation of Korea)*
-" col2="
+
+---
+
 **2026 – 2027 · PI**
 공공데이터를 활용한 에이전트 기반 시뮬레이션 연구
 
@@ -105,7 +106,6 @@ Digital Twin-based Virtual Clinical Trial for Infectious Diseases: Effectiveness
 데이터 기반 시뮬레이션 및 모델링 기법 연구
 
 *인천대학교 (Incheon National University)*
-" %}
 
 ## Presentation
 {: #presentation}
